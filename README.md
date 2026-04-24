@@ -118,7 +118,59 @@ The Excel dashboard includes:
 
 
 * 📊 Significant drop-off after NCR, with the next largest region contributing less than **4%**
-* 🚀 Regions **Regions IV-A, VII, and III** show strong expansion potential
+* 🚀 Regions **Regions IV-A (CALABARZON), VII (Central Visayas), and III (Central Luzon)** show strong expansion potential
 * ⚠️ Several regions contribute less than **1%**, highlighting underdeveloped areas
+
+---
+
+## 🧠 Key Learnings
+
+* Built an end-to-end data pipeline using **Power Query**
+* Designed a structured and interactive **Excel dashboard**
+* Applied **data normalization techniques** for deeper insights
+* Translated raw data into **business-relevant insights**
+
+---
+
+## 📸 Dashboard Preview
+
+### Overview
+![Overview - KPI Cards](images/kpi-cards.png)
+
+![Overview - Monthly Trend](images/monthly-tax-revenue.png)
+
+### Growth & Composition
+![Growth](images/revenue-yoy-growth.png)
+
+### Regional Breakdown
+![Non-NCR Share](images/non-ncr-contribution.png)
+
+### Heatmaps
+![Heatmaps](images/volume-and-performance-heatmap.png)
+
+---
+
+## 🚀 How to Use
+
+1. Open `dashboard/tax_dashboard.xlsx`
+2. Refresh Power Query if prompted
+3. Use slicers (if available) to explore data dynamically
+
+---
+
+## 📌 Future Improvements
+
+* Migrate dashboard to **Power BI** for enhanced interactivity
+* Automate data refresh pipeline
+* Add forecasting and trend projection models
+  
+---
+
+## 👤 Author
+
+**Kim Singson**
+
+
+Aspiring Data Analyst
 
 ---
