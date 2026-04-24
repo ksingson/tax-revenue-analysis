@@ -25,10 +25,10 @@ tax-collection-dashboard/
 │   │   └── 2024.txt
 │   │
 │   └── processed/
-│       └── tax-data_cleaned.xlsx
+│       └── clean-tax-revenue_v2.xlsx
 │
 ├── dashboard/
-│   └── tax_dashboard.xlsx
+│   └── tax-revenue-dashboard_v2.xlsx
 │
 ├── images/
 │   ├── tax-revenue-dashboard.png
@@ -74,7 +74,10 @@ Raw tax data was provided as separate `.txt` files for each year (2020–2024). 
   * Handled missing values
 * Structured the dataset for analysis
 
-The cleaned dataset (`tax-data_cleaned.xlsx`) serves as the foundation for all dashboard visualizations.
+The cleaned dataset (`clean-tax-revenue_v2.xlsx`) serves as the foundation for all dashboard visualizations.
+
+
+![Before and After Data Transformation via Power Query](images/before-after.png)
 
 ---
 
@@ -111,13 +114,19 @@ The Excel dashboard includes:
 ## 🔍 Key Insights
 
 * 📈 Total tax grew by **46% from 2020 to 2024**, with the highest growth in **2024 (+13.34% from 2023 revenue)**
-* 🥧 NCR contributes **approximately 82% of total tax revenue for the whole 5 years of data**, indicating heavy concentration towards the region. This also shows that **the country relies 80% of its tax revenue in NCR every year**.
 
+### Growth & Composition
+![Growth](images/revenue-yoy-growth.png)
+
+* 🥧 NCR contributes **approximately 82% of total tax revenue for the whole 5 years of data**, indicating heavy concentration towards the region. This also shows that **the country relies 80% of its tax revenue in NCR every year**.
   
 ![NCR vs Others Tax Revenue](images/annual-ncr-share.png)
 
-
 * 📊 Significant drop-off after NCR, with the next largest region contributing less than **4%**
+
+### Regional Breakdown
+![Non-NCR Share](images/non-ncr-contribution.png)
+
 * 🚀 Regions **Regions IV-A (CALABARZON), VII (Central Visayas), and III (Central Luzon)** show strong expansion potential
 * ⚠️ Several regions contribute less than **1%**, highlighting underdeveloped areas
 
@@ -139,12 +148,6 @@ The Excel dashboard includes:
 
 ![Overview - Monthly Trend](images/monthly-tax-revenue.png)
 
-### Growth & Composition
-![Growth](images/revenue-yoy-growth.png)
-
-### Regional Breakdown
-![Non-NCR Share](images/non-ncr-contribution.png)
-
 ### Heatmaps
 ![Heatmaps](images/volume-and-performance-heatmap.png)
 
@@ -152,7 +155,7 @@ The Excel dashboard includes:
 
 ## 🚀 How to Use
 
-1. Open `dashboard/tax_dashboard.xlsx`
+1. Open [dashboard/tax-revenue-dashboard_v2.xlsx](dashboard/tax-revenue-dashboard_v2.xlsx)
 2. Refresh Power Query if prompted
 3. Use slicers (if available) to explore data dynamically
 
