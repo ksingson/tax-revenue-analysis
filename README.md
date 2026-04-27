@@ -38,7 +38,7 @@ tax-collection-dashboard/
 │   ├── monthly-tax-revenue.png
 │   └── non-ncr-contribution.png
 │   ├── revenue-yoy-growth.png
-│   ├── volume-and-performance-heatmap.png
+│   └── volume-and-performance-heatmap.png
 │
 └── README.md
 ```
